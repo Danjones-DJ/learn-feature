@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Learning Jay - Study Assistant</title>
+    <title>thelearningjay - Study Assistant</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -495,10 +496,10 @@
                     <textarea id="blurt-explanation" placeholder="Type or speak your explanation..."></textarea>
                 </div>
 
-                <button class="btn-primary">Analyze Understanding</button>
+                <button class="btn-primary" id="analyse-blurt-btn">Analyse Understanding</button>
             </div>
 
-            <div class="results-container" style="display: none;">
+            <div id="blurt-results" class="results-container" style="display: none;">
                 <p>Results will appear here...</p>
             </div>
         </div>
@@ -566,7 +567,7 @@
             <a href="#">LinkedIn</a>
             <a href="#">Instagram</a>
         </div>
-        <p>© 2024 thelearningjay. Built with OpenAI.</p>
+        <p>©2025 thelearningjay.</p>
     </footer>
 
     <script>
@@ -582,5 +583,6 @@
             }
         }
     </script>
+    <script src="app.js"></script>
 </body>
 </html>
