@@ -1,5 +1,5 @@
 // OpenAI API Configuration
-const OPENAI_API_KEY = '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';
+const OPENAI_API_KEY = key;
 const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions';
 
 // Global variables
